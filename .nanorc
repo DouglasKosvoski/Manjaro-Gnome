@@ -1,0 +1,19 @@
+#
+# ~/.nanorc
+#
+
+include "~/.nano/*.nanorc"
+
+set titlecolor yellow white
+set autoindent
+set backup
+set boldtext
+set historylog
+set mouse
+set regexp
+set linenumbers
+set smarthome
+set softwrap
+set tabsize 4
+set tabstospaces
+set tempfile
