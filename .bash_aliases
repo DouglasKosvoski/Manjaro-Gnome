@@ -25,7 +25,7 @@ alias term="gnome-terminal"
 
 ### System
 alias super-update="clear && sudo pacman -Syu --noconfirm && notify-send 'System update completed !!!' --urgency=normal"
-alias discord-update="pacman -U https://www.archlinux.org/packages/community/x86_64/discord/download/"
+alias discord-update="sudo pacman -U https://www.archlinux.org/packages/community/x86_64/discord/download/"
 alias poff="shutdown -h 0"
 alias bye=poff
 alias poweroff="shutdown -h 0"
