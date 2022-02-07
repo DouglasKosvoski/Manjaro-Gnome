@@ -123,7 +123,7 @@ sudo pacman -Sy tree
 sudo pacman -Sy lolcat
 ```
 
-### Modifing directories
+### Setting up config files
 ```bash
 # move to root
 cd ~
@@ -137,5 +137,6 @@ cd Manjaro-Gnome
 cp *. ../
 # nano text highlighting
 wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
-
+# further configurations
+bash config.sh
 ```
