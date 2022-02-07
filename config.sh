@@ -12,4 +12,8 @@ if [ -f ~/.bash_functions ]; then
     . ~/.bash_functions
 fi" >> ~/.bashrc
 
+echo "
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+clear" >> ~/.zshrc
+
 bash install_apps.sh
