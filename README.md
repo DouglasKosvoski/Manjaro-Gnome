@@ -108,35 +108,23 @@ cat ~/.ssh/id_ed25519.pub
 		- Built-in scheme = `solarized`
 		- change shit green to nice green
 
-``` bash
-# update packages
-sudo pacman -Syu
-# install vlc and video drivers
-sudo pacman -Sy vlc
-# install atom text-editor
-sudo pacman -Sy atom
-# install neofetch (system info)
-sudo pacman -Sy neofetch
-# directory view in tree-style
-sudo pacman -Sy tree
-# output coloring
-sudo pacman -Sy lolcat
-```
-
 ### Setting up config files
 ```bash
 # move to root
 cd ~
 # create folder on root directory
 mkdir Github
+# enter folder
+cd Github
 # clone repo containing config files
 git clone git@github.com:DouglasKosvoski/Manjaro-Gnome.git
 # enter folder
 cd Manjaro-Gnome
+# remove versioning folder
+rm -rf .git
 # copy config files to root directory
-cp *. ../
-# nano text highlighting
-wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+cp .* ~/
+
 # further configurations
 bash config.sh
 ```
