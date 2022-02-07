@@ -127,4 +127,12 @@ cp .* ~/
 
 # further configurations
 bash config.sh
+
+# reboot system
+reboot
+
+discord-update
+super-update
+sudo snap install spotify (if didnt work at first)
+
 ```
